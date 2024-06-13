@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveling Salesman Problem</title>
+    <link rel="stylesheet" href="styles_genres.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Traveling Salesman Problem</h1>
+            <button onclick="location.href='home.html'">Home</button>
+            <button onclick="location.href='index.html'">Il problema</button>
+            <button onclick="location.href='https://ixd-supsi.github.io/2024/'">INDEX</button>
+
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <!-- Primo blocco: Storia dell'algoritmo -->
+            <div class="block">
+                <h2>Storia dell'Algoritmo</h2>
+                <p>
+                    Il problema del commesso viaggiatore è un classico enigma matematico e di ottimizzazione, che affonda le radici nel campo della teoria dei grafi e dell'informatica. L'obiettivo è trovare il percorso più breve possibile che permetta a un commesso viaggiatore di visitare ogni città esattamente una volta e tornare al punto di partenza.
+                </p>
+            </div>
+
+            <!-- Secondo blocco: Come funziona -->
+            <div class="block">
+                <h2>Come Funziona</h2>
+                <p>
+                    L'algoritmo utilizzato è basato sulla permutazione lessicografica, una tecnica efficiente per generare tutte le possibili sequenze di città da visitare. Ad ogni iterazione, viene calcolata la distanza totale del percorso per la sequenza corrente e confrontata con la miglior soluzione trovata fino a quel momento. Il processo continua fino a quando tutte le permutazioni sono state esplorate.
+                </p>
+            </div>
+
+            <!-- Terzo blocco: Algoritmo in Azione -->
+            <div class="block algorithm-block">
+                <h2>Algoritmo in Azione</h2>
+                <div id="algorithm-container">
+                    <!-- Il canvas di p5.js sarà aggiunto dinamicamente qui -->
+                </div>
+                <p>
+                    L'algoritmo continua a esplorare diverse combinazioni di percorsi per trovare il percorso più
+                    breve possibile.
+                </p>
+            </div>
+        </div>
+       
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="script_1.js"></script>
+</body>
+</html>

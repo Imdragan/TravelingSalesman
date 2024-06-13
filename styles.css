@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+nav button {
+    background-color: #ffffff;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+nav button:hover {
+    background-color: #e0e0e0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px; /* Larghezza massima del contenitore */
+    margin-top: 20px;
+}
+
+.block {
+    width: calc(33.33% - 20px); /* Larghezza del 33.33% con margini */
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: left; /* Allineamento del testo a sinistra */
+}
+
+#algorithm-container {
+    width: 200px; /* Larghezza del cerchio */
+    height: 200px; /* Altezza del cerchio */
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px auto; /* Margine automatico sopra e sotto, centrato orizzontalmente */
+    position: relative;
+}
+
+h1 {
+    color: black;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}

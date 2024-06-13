@@ -1,0 +1,112 @@
+/* Stili generici */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: aliceblue;
+    border-bottom: 2px solid black;
+    padding: 20px;
+    text-align: left;
+}
+
+nav button {
+    background-color: #ffffff;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+nav button:hover {
+    background-color: #e0e0e0;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.block {
+    width: 80%;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.algorithm-block {
+    position: relative;
+}
+
+.algorithm-block p {
+    margin-top: 10px;
+}
+
+h1 {
+    color: black;
+    padding-left: 15px;
+}
+
+
+
+#image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Colonne dinamiche */
+    gap: 20px; /* Spazio tra le immagini */
+}
+
+#image-grid img {
+    width: 100%; /* Immagini occupano tutta la larghezza del loro contenitore */
+    height: auto; /* Altezza automatica rispetto alla larghezza */
+    display: block; /* Rimuove lo spazio extra sotto l'immagine */
+    border-radius: 8px; /* Bordo arrotondato */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+    transition: transform 0.2s ease-in-out; /* Effetto di transizione al passaggio del mouse */
+}
+
+#image-grid img:hover {
+    transform: scale(1.05); /* Ingrandisce leggermente l'immagine al passaggio del mouse */
+}
+
+nav #category-filter {
+    background-color: #ffffff;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+nav #category-filter:hover {
+    background-color: #e0e0e0;
+}
+
+nav #category-filter option {
+    background-color: #ffffff;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+nav #category-filter:focus {
+    outline: none;
+}
