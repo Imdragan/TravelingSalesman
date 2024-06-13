@@ -1,19 +1,19 @@
-SUPSI 20223-24
+SUPSI 2023-24
 Corso d’interaction design, CV428.01
 Docenti: A. Gysin, G. Profeta
 
-Elaborato 1: XS
+Elaborato intermedio
 
-Traveling Salesman Problem
+# Traveling Salesman Problem
 
 Autore: Dragan Radic
-Traveling Salesman Problem
+[Traveling Salesman Problem](https://imdragan.github.io/TravelingSalesman/)
 
-Introduzione e tema
+## Introduzione e tema
 
-Il progetto "Traveling Salesman Problem Visualization" è un'applicazione web che visualizza in tempo reale l'algoritmo per risolvere il Problema del Commesso Viaggiatore (TSP). Il TSP è un problema classico dell'ottimizzazione combinatoria che consiste nel trovare il percorso più breve per visitare tutte le città esattamente una volta e tornare al punto di partenza. L'applicazione utilizza il framework p5.js per creare un'interfaccia grafica dinamica e interattiva che mostra il percorso ottimizzato e l'evoluzione dell'algoritmo nel trovare tale percorso.
+Il progetto "Traveling Salesman Problem" è un'applicazione web che visualizza in tempo reale l'algoritmo per risolvere il Problema del Commesso Viaggiatore (TSP). Il TSP è un problema classico dell'ottimizzazione combinatoria che consiste nel trovare il percorso più breve per visitare tutte le città esattamente una volta e tornare al punto di partenza. L'applicazione utilizza il framework p5.js per creare un'interfaccia grafica dinamica e interattiva che mostra il percorso ottimizzato e l'evoluzione dell'algoritmo nel trovare tale percorso.
 
-Riferimenti progettuali
+## Riferimenti progettuali
 
 Il design dell'interfaccia è stato concepito per essere intuitivo e informativo, con un focus sulla visualizzazione chiara dei concetti algoritmici e sulla facilità di interazione. I principali elementi del design includono:
 
@@ -25,7 +25,7 @@ Visualizzazione Grafica: Utilizzo di grafica vettoriale per visualizzare le citt
 
 
 
-Design dell’interfraccia e modalià di interazione
+## Design dell’interfraccia e modalià di interazione
 
 L'interfaccia dell'applicazione è strutturata in tre sezioni principali:
 
@@ -36,7 +36,7 @@ Come Funziona: Spiegazione dettagliata di come l'algoritmo utilizzato cerca di r
 Algoritmo in Azione: Utilizzo di p5.js per creare un canvas dinamico che visualizza le città, il percorso attuale e l'evoluzione dell'algoritmo nel migliorare il percorso attraverso scambi casuali delle città.
 
 
-Tecnologia usata
+## Tecnologia usata
 
 L'applicazione è implementata utilizzando le seguenti tecnologie:
 
@@ -44,7 +44,7 @@ HTML e CSS: Struttura e stile dell'interfaccia utente per garantire un layout ch
 
 JavaScript (p5.js): Utilizzato per la creazione di grafica vettoriale interattiva nel canvas, mostrando le città, i percorsi e l'evoluzione dell'algoritmo nel tempo.
 
-Parti di codice rilevanti per il progetto
+## Parti di codice rilevanti per il progetto
 
 Ecco un esempio di parte del codice JavaScript utilizzato per l'implementazione dell'algoritmo TSP:
 
@@ -98,9 +98,9 @@ function draw() {
 
 
 
-Contesto d’uso e Target
+## Contesto d’uso e Target
 
-L'applicazione "Traveling Salesman Problem Visualization" è pensata per essere utilizzata da studenti, appassionati di informatica, e professionisti che desiderano comprendere visivamente il funzionamento e l'evoluzione dell'algoritmo per il Problema del Commesso Viaggiatore. È ideale per l'apprendimento interattivo dei concetti di ottimizzazione combinatoria e per l'illustrazione pratica di come gli algoritmi di ricerca possano essere applicati a problemi reali.
+L'applicazione "Traveling Salesman Problem" è pensata per essere utilizzata da studenti, appassionati di informatica, e professionisti che desiderano comprendere visivamente il funzionamento e l'evoluzione dell'algoritmo per il Problema del Commesso Viaggiatore. È ideale per l'apprendimento interattivo dei concetti di ottimizzazione combinatoria e per l'illustrazione pratica di come gli algoritmi di ricerca possano essere applicati a problemi reali.
 
 Il target include studenti universitari dei corsi di informatica, professionisti del settore tecnologico, e appassionati di matematica e algoritmi che desiderano approfondire le loro conoscenze tramite una presentazione visiva e interattiva.
 
